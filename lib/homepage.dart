@@ -6,9 +6,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("F.R.I.E.N.D.S")
+        title: new Text("F.R.I.E.N.D.S.")
       ),
-      body: new ChatScreen(),
+      body: new ChatScreen()
     );
   }
 }
